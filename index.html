@@ -109,11 +109,14 @@
     </div>
 
     <!-- Produk -->
-    <div class="card">
-      <h2>Panel Pterodactyl</h2>
-      <p>panel pterodactyl dengan harga murah dan performa maksimal.</p>
-      <a href="https://files.catbox.moe/a6wya3.jpg" target="_blank">Lihat Detail</a>
-    </div>
+    <div class="card" id="listPanel" aria-hidden="true" role="dialog" aria-label="List Panel">
+  <div class="popup-card">
+    <img src="https://files.catbox.moe/a6wya3.jpg" alt="List Panel">
+    <h3>List Panel</h3>
+    <p class="muted">Bergaransi penuh & kualitas tinggi.</p>
+    <button class="btn close" onclick="toggleListPanel()">Tutup</button>
+  </div>
+</div>
 
     <div class="card">
       <h2>Reseller / Admin Panel</h2>
